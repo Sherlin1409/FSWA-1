@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.price-container {
+    height: 200rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 0px;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont {
+    height: 6rem;
+    width: 90%;
+    background-color: #f8fafa;
+    display: flex;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition: 0.6s;
+}
+
+.cont:hover {
+    transform: scale(1.2);
+}
+
+.page-heading {
+    height: 10rem;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-heading h1 {
+    padding: 1rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.footer {
+    height: 10rem;
+    width: 100%;
+}
+
+.img {
+    height: 6rem;
+    width: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-1 {
+    background-image: url("../images/Untitled\ design\ \(44\).png");
+}
+
+.img-2 {
+    background-image: url("../images/Untitled\ design\ \(46\).png");
+}
+
+.img-3 {
+    background-image: url("../images/1.png");
+}
+
+.img-4 {
+    background-image: url("../images/2.png");
+}
+
+.img-5 {
+    background-image: url("../images/3.png");
+}
+
+.img-6 {
+    background-image: url("../images/4.png");
+}
+
+.img-7 {
+    background-image: url("../images/5.png");
+}
+
+.img-8 {
+    background-image: url("../images/6.png");
+}
+
+.img-9 {
+    background-image: url("../images/7.png");
+}
+
+.img-10 {
+    background-image: url("../images/8.png");
+}
+
+.img-11 {
+    background-image: url("../images/9.png");
+}
+
+.img-12 {
+    background-image: url("../images/10.png");
+}
+
+.img-13 {
+    background-image: url("../images/11.png");
+}
+
+.img-14 {
+    background-image: url("../images/12.png");
+}
+
+.img-15 {
+    background-image: url("../images/13.png");
+}
+
+.img-16 {
+    background-image: url("../images/14.png");
+}
+
+.img-17 {
+    background-image: url("../images/15.png");
+}
+
+.img-18 {
+    background-image: url("../images/16.png");
+}
+
+.img-19 {
+    background-image: url("../images/17.png");
+}
+
+.img-20 {
+    background-image: url("../images/18.png");
+}
+
+.img-21 {
+    background-image: url("../images/19.png");
+}
+
+.img-22 {
+    background-image: url("../images/20.png");
+}
+
+.img-23 {
+    background-image: url("../images/21.png");
+}
+
+.img-24 {
+    background-image: url("../images/22.png");
+}
+
+.img-25 {
+    background-image: url("../images/23.png");
+}
+
+.img-26 {
+    background-image: url("../images/24.png");
+}
+
+.img-27 {
+    background-image: url("../images/25.png");
+}
+
+.img-28 {
+    background-image: url("../images/26.png");
+}
+
+.img-29 {
+    background-image: url("../images/27.png");
+}
+
+.img-30 {
+    background-image: url("../images/28.png");
+}
+
+.img-31 {
+    background-image: url("../images/29.png");
+}
+
+.img-32 {
+    background-image: url("../images/30.png");
+}
+
+.img-33 {
+    background-image: url("../images/31.png");
+}
+
+.img-34 {
+    background-image: url("../images/31.png");
+}
+
+.content {
+    height: 6rem;
+    width: 40%;
+    text-align: center;
+}
+
+.content h1 {
+    margin-top: .7rem;
+    color: black;
+}
+
+.pricestarts {
+    height: 6rem;
+    width: 30%;
+    text-align: center;
+}
+
+.pricestarts h1 {
+    padding: 1.7rem;
+}

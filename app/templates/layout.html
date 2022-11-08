@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{ title }}</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}" />
+
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Agro Harvest Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <link rel="stylesheet" href="../static/css/styleupdated.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="myDiv">
+        <div class="logo">
+        </div>
+        <ul id="nav-links" class="nav-links navbar-links">
+            <li><a href="#" class="nav-item active">Home</a></li>
+            <li class="navbar-dropdown">
+                <a href="#" class="nav-item">Feature <i class="fa fa-caret-down"></i
+            ></a>
+                <div class="dropdown">
+                    <a href="{{ url_for('crop_recommend') }}">Crop Prediction</a>
+                    <a href="{{ url_for('fertilizer_recommendation') }}">Fertilizer Prediction</a
+              >
+              <a href="{{ url_for('disease_prediction') }}"
+                >Disease Prediction</a
+              >
+            </div>
+          </li>
+          <li>
+            <a href="{{url_for('price')}}" class="nav-item">Marker price</a>
+            </li>
+            <li><a href="#" class="nav-item">Guide</a></li>
+
+            <li><a href="#" class="nav-item">About</a></li>
+            <li>
+                <a href="http://127.0.0.1:5501/index.html?" class="nav-item">Login</a
+            >
+          </li>
+        </ul>
+        <div class="menu-bar">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+
+
+
+
+	{% block body %} {% endblock %}
+
+	<!-- footer -->
+
+                    <!-- //move top icon -->
+</body>
+
+</html>

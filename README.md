@@ -1,0 +1,1 @@
+This web-app was made to help farmer's to predict Plant diseases,crop prediction adding to this Fertilizer suggestion, Updated market price and guide for the people who starts with farming are also include.
